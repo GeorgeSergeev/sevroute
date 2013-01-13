@@ -1,0 +1,84 @@
+body {font-size:12px; font-family:Arial,Tahoma; margin:0px; padding:0px;  background-color:#f5f5f5; behavior:url("csshover.htc");}
+
+a {text-decoration:none; color:#8e5900;}
+a:hover {color:#993300; }
+form {padding:0px; margin:0px;}
+
+h5 {margin:0px; padding:0px; padding-left:5px; padding-bottom:20px; font-weight:normal; color:#152e54; font-size:19px; font-family:Trebuchet MS, Arial, Tahoma;}
+
+
+.wrapper { height:1500px;}
+.wrtable {padding:0px; margin:0px; width:100%}
+.page {width:1280px; background:url("../graph/back.gif") top no-repeat; background-color:white; padding-bottom:20px;}
+
+.topmenu    {float:left; height:44px; width:819px; overflow:hidden;}
+.topmenu .mitem {float:left;}
+.topmenu .mitem li {list-style:none; text-align:center; padding-right:17px; padding-left:17px; padding-top:11px; height:33px; text-transform:uppercase; background: url(../graph/vml.png) right no-repeat;}
+.topmenu .mitem li a {text-decoration:none; font-family:Trebuchet MS; font-size:16px; text-transform:uppercase; color:#091b3b;}
+.topmenu .mitem span li {text-decoration:none; background: url(../graph/nonr.png); }
+.topmenu .mitem b li {background: url(../graph/nonr.png); background-color:#e7b312; font-weight:normal; }
+.topmenu .mitem b li a {color:white;}
+.topmenu .mitem li:hover {background-color:#e7b312;}
+.topmenu .mitem li:hover a {color:white;}
+
+
+
+.search {float:right; width:300px;}
+.search input {float:left; margin-top:20px; width:250px; padding-left:10px; height:28px; border:solid 1px #e7e7e7;}
+.search .go {float:left; height:30px; width:30px; border:solid 1px #e7e7e7; margin-top:20px; margin-left:-30px; cursor:pointer; background:url(../graph/search.png) no-repeat;  }
+
+.toptextarea {clear:both; width:1004px; height:200px;}
+.topabout {float:left; width:270px; height:115px; overflow:hidden; margin-left:25px; margin-top:25px; color:white; font-size:10px; text-align:justify;}
+
+.slog {float:left; margin-top:15px; margin-left:40px; width:360px; height:170px; background:url(../graph/slog.png) top left no-repeat; }
+.slog_en {float:left; margin-top:15px; margin-left:40px; width:360px; height:170px; background:url(../graph/slog_en.png) top left no-repeat; }
+
+.infoarea {clear:both; float:left; width:1004px;}
+.leftpart {float:left; width:320px;  }
+.rightpart {float:right; width:675px; padding-top:35px;}
+
+.catalogmenu {margin-left:35px;}
+.catalogmenu ul    {margin:0px; padding:0px;}
+.catalogmenu ul li {list-style:none; width:220px; padding-left:26px; padding-bottom:10px; margin-bottom:10px; border-bottom:solid 1px #e0e0e0; font-family:Tahoma; font-size:14px; background:url(../graph/lmarr.png) top left no-repeat;}
+.catalogmenu ul li a {color:#081938;}
+.catalogmenu ul li a:hover {color:#8e5900;}
+.catalogmenu ul li ul  {margin:0px; padding:0px; margin-top:20px;}
+.catalogmenu ul li ul li {list-style:none; margin:0px; padding:0px;  padding-bottom:10px; font-family:Tahoma; font-size:11px; border-bottom:none; background:none;}
+.nomline {width:250px; height:11px; padding-left:35px; margin-top:-11px; background-color:white;}
+
+
+.contactarea {width262:px; padding-left:25px; padding-top:25px; padding-right:10px; margin-top:15px; margin-left:15px; background:url(../graph/lmbg.png) top no-repeat;}
+.addresstext {text-decoration:none; padding-left:5px; color:#333333; font-family : Trebuchet MS, Arial; font-size : 14px;}
+
+.krohi {width:655px; padding-left:5px; padding-bottom:10px; margin-bottom:10px; border-bottom:solid 1px #e1e0e0; font-size:11px;}
+
+.mainnewsarea {width:660px;  padding-bottom:15px; padding-top:10px; margin-bottom:15px; border-bottom:solid 1px #e1e0e0; }
+
+.mnewsitem {width:207px; margin-right:5px; margin-left:5px;  background:url(../graph/tnewsbg.png) bottom no-repeat; padding-bottom:10px; display: -moz-inline-stack; display:inline-block; vertical-align:text-top; zoom:1; *display:inline;}
+.mnpic {width:170px; height:109px; overflow:hidden; padding:6px; background-color:white; border:solid 1px #c9c8c7; }
+.mnpic img {width:170px; border:none;}
+.mnetstext {padding:8px; padding-left:13px; padding-right:12px; padding-bottom:10px; color:#333333;  font-size : 11px;}
+.mnetstext p {padding:0px; margin:0px; padding-top:3px;}
+.mnetstext span {text-decoration:none; color:#1a5092; font-family : Tahoma, Arial; font-size : 10px;}
+.mnmore {position:absolute; margin-top:-6px;  margin-left:145px; font-size:10px; font-family : Tahoma;}
+
+.maincatalog {clear:both;}
+.mñitem {width:140px; padding:5px; padding-bottom:10px; margin-right:4px; margin-left:4px; font-size:11px; text-align:center; text-transform:uppercase;  display: -moz-inline-stack; display:inline-block; vertical-align:text-top; zoom:1; *display:inline;}
+.mñitem h2 {margin:0px; padding:0px; padding-bottom:5px; font-weight:normal; font-size:11px; font-family: Arial, Tahoma;}
+.mñpic  {width:130px; height:130px; overflow:hidden; margin-bottom:10px; border:solid 1px #c9c8c7;}
+.mñpic img {width:130px; border:none;}
+
+
+.footerarea {width:100%; padding-bottom:30px; background-color:#e6e6e6;}
+.footer     {clear:both; width:1004px; height:66px;  padding-top:25px; background: url(../graph/fbg.png) bottom repeat-x; background-color:white; }
+
+.endmenu   {float:left; margin-top:15px; margin-left:10px; color:#bbbbbb; width:600px; text-align:left }
+.endmenu a {margin-left:5px; margin-right:5px;  text-transform:uppercase; color:white; font-size:10px;}
+.copy a    {clear:both; float:left;  margin-left:15px; margin-top:10px;  text-transform:uppercase; color:#6287a8; font-size:9px;}
+.counters  {position:absolute;  width:250px; text-align:right; margin-top:15px; margin-left:740px; }
+
+.toppartners {clear:both; width:1004px; height:86px; padding-top:15px; text-align:center; overflow:hidden; text-align:center;}
+.tparea {height:86px;}
+.tpitem     {padding-left:20px; padding-right:20px; float:left;}
+.tpitem img {height:70px; opacity:0.2;}
+.tpitem img:hover {height:70px; opacity:1;}
